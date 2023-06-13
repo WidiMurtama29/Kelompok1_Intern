@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* :root {
+    --main-color: #4F4F4F;
+    --body-color: #F2F2F2;
+
+    --main-font: 'Poppins', sans-serif;
+    --nav-font: 'Poppins', sans-serif;
+} */
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    /* width: 1380px; */
+    height: 4867px;
+    background-color: #FFFFFF;
+    /* background-color: var(--body-color); */
+    /* var(--main-font); */
+}
+
+.logo{
+      float: left;
+      display: inline-block;
+      border-radius: 10px;
+      background-color: #4F4F4F;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      padding: 10px 70px;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+    /* position: fixed; */
+    font-size: 18px;
+    text-decoration: none;
+    clear: both;
+    
+    
+}
+header nav ul {
+    /* background-color: #F2F2F2;                          */
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    float: right;
+    margin: 20px;
+    padding-left: 550px;
+    /* text-align-last: right; */
+}
+
+header nav ul li a {
+    color: #000000;
+    /* text-align: center; */
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+header nav ul li a:hover{
+    background-color: #4F4F4F;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    color:white;
+
+}
+
+.button {
+      display: inline-block;
+      border-radius: 10px;
+      background-color: #4F4F4F;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      padding: 10px 20px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main{
+    padding-top: 100px;
+}
