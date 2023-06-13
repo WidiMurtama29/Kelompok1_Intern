@@ -516,6 +516,7 @@ div.cara-penggunaan img{
     font-weight: 700;
     font-size: 28px;
     line-height: 42px;
+    padding-top: 20px;
     /* identical to box height */
 
     /* Gray 1 */
@@ -536,6 +537,7 @@ div.cara-penggunaan img{
     font-size: 22px;
     line-height: 33px;
     text-align: justify;
+    padding-bottom: 20px;
 
     /* Gray 2 */
 
@@ -546,30 +548,181 @@ div.cara-penggunaan img{
     flex-grow: 0;
 }
 
-div.FAQ1 img{
+/* div.FAQ1 img{
     position: absolute;
     width: 35.24px;
     height: 17.62px;
-    /* left: calc(50% - 35.24px/2 + 35.24px);
-    top: calc(50% - 17.62px/2 + 19.82px); */
+    left: calc(50% - 35.24px/2 + 35.24px);
+    top: calc(50% - 17.62px/2 + 19.82px);
 
-    /* Gray 2 */
+    
 
     border: 4.40476px solid #4F4F4F;
-    transform: rotate(180deg);
+    transform: rotate(180deg); 
+} */
+
+.FAQ2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    padding: 50px, 50px, 40px, 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    gap: 90px;
+
+    width: 1200px;
+    height: 90px;
+
+
+    background: #F2F2F2;
+    border-radius: 18px;
 }
 
+.FAQ2 h1{
+    width: 778px;
+    height: 42px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #333333;
+}
+
+.FAQ3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    padding: 50px, 50px, 40px, 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    gap: 90px;
+
+    width: 1200px;
+    height: 90px;
 
 
+    background: #F2F2F2;
+    border-radius: 18px;
+}
+
+.FAQ3 h1{
+    width: 1100px;
+    height: 84px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #333333;
+}
+
+.FAQ4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    padding: 50px, 50px, 40px, 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    gap: 90px;
+
+    width: 1200px;
+    height: 90px;
 
 
+    background: #F2F2F2;
+    border-radius: 18px;
+}
 
+.FAQ4 h1{
+    width: 780px;
+    height: 42px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #333333;
 
+}
     
-    
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px 60px;
+    margin-top: 20px;
+    gap: 62px;
 
+    width: 1440px;
+    height: 500px;
+    background: #4F4F4F;
 
+    /* flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0; */
+}
 
+.rectangle {
+    width: 227px;
+    height: 62px;
+    background: #E0E0E0;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
 
-  
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.informasi-footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.informasi-footer h1{
+    width: 140px;
+    height: 42px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 20px;
+
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.informasi-footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.informasi-footer ul li a{
+    width: 196px;
+    height: 42px;
+    margin: 20px;
+    padding-bottom: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: #F2F2F2;
+
+}

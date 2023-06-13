@@ -89,24 +89,31 @@
         <h1>Apa itu produk aplikasi yang Anda tawarkan?</h1>
         <p>Produk aplikasi yang kami tawarkan adalah sebuah aplikasi khusus yang dirancang untuk membantu Anda
             dalam berbagai aspek kehidupan, seperti meningkatkan produktivitas, memperbaiki kesehatan mental, dan banyak lagi.</p>
-        <img src="asset/chevron.png" alt="">
+        {{-- <img src="asset/chevron.png" alt=""> --}}
     </div>
-        
+    <div class="FAQ2">
+        <h1>Apakah aplikasi ini tersedia untuk platform apa saja?</h1>
+    </div>
+    <div class="FAQ3">
+        <h1>Apakah ada dukungan pelanggan yang tersedia jika saya mengalami masalah dengan aplikasi?
+        </h1>
+    </div>
+    <div class="FAQ4">
+        <h1>Apakah ada fitur khusus yang tersedia di aplikasi ini?</h1>
+    </div>    
     
 </div>
 
-                
-
-{{-- <div class="container-testimoni">
-    <div class="flex-testimoni">
-        <ul>
-            <li>
-                <p>"Saya sangat terbantu dengan layanan yang diberikan oleh tim ABC. 
-                    Mereka sangat responsif dan membantu saya menyelesaikan masalah dengan cepat."</p>
-                <img src="asset/Sarah-Tan.png" alt="">
-                <h2>Sarah Tan</h2>
-                <p>PT XYZ</p>
-            </li>
-        </ul>
+<footer>
+    <div class="rectangle"></div>
+    <div class="informasi-footer">
+    <h1 href="#">Informasi</h1>
+    <ul>
+        <li>
+            <a href="#">Tentang Kami</a>
+            <a href="#">Karir</a>
+        </li>
+    </ul>
     </div>
-</div> --}}
+
+</footer>
