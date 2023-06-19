@@ -7,7 +7,7 @@
             <a class="button" href="{{ url('/login') }}">Masuk</a>
         </li>
         <div class="logo" href="{{ url('/') }}">
-            Logo
+            <img src="asset/logo-finder-navbar.png" alt="">
         </div>
             
     </ul>

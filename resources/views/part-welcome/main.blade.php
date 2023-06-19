@@ -61,22 +61,34 @@
     <div class="flex-testimoni">
         <p>"Saya sangat terbantu dengan layanan yang diberikan oleh tim ABC. 
             Mereka sangat responsif dan membantu saya menyelesaikan masalah dengan cepat."</p>
-            <div class="akun-customer">
-                <img src="asset/Sarah-Tan.png" alt="">
-                <h2>Sarah Tan</h2>
-                <p>PT XYZ</p>
+            <div class="akun-customer-box">
+                <div class="akun-customer-img">
+                    <img src="asset/Sarah-Tan.png" alt="">
+                </div>
+                <div class="akun-customer-title">
+                    <h2>Sarah Tan</h2>
+                    <p>PT XYZ</p>
+                </div>
             </div>
     </div>
-        <div class="flex-testimoni">
-            <p>"Saya sangat senang dengan hasil kerja tim DEV. 
-                Mereka sangat profesional dan memberikan solusi yang tepat untuk kebutuhan perusahaan kami."</p>
-                <div class="akun-customer2">
+
+    <div class="flex-testimoni">
+        <p>"Saya sangat senang dengan hasil kerja tim DEV. 
+            Mereka sangat profesional dan memberikan solusi yang tepat untuk kebutuhan perusahaan kami."</p>
+            <div class="akun-customer2-box">
+                <div class="akun-customer2-img">
                     <img src="asset/Budi-Setiawan.png" alt="">
+                </div>
+                <div class="akun-customer2-title">
                     <h2>Budi Setiawan</h2>
                     <p>CV LMN</p>
                 </div>
-        </div>
+            </div>
+    </div>
+
 </div>
+                
+                    
 
 <div class="cara-penggunaan">
     <img src="asset/Cara-Penggunaan.png" alt="">
@@ -105,15 +117,37 @@
 </div>
 
 <footer>
-    <div class="rectangle"></div>
+    <div class="rectangle">
+        <img src="asset/logo-finder.png" alt="">
+    </div>
     <div class="informasi-footer">
-    <h1 href="#">Informasi</h1>
+    <h1>Informasi</h1>
     <ul>
         <li>
             <a href="#">Tentang Kami</a>
             <a href="#">Karir</a>
+            <a href="#">Layanan</a>
+            <a href="#">Harga</a>
         </li>
     </ul>
+    </div>
+    <div class="pusat-bantuan-footer">
+        <h1>Bantuan</h1>
+        <ul>
+            <li>
+               <a href="#">Pusat Bantuan</a>
+            </li>
+        </ul>
+    </div>
+    <div class="kontak-kami-footer">
+        <h1>Kontak Kami</h1>
+        <ul>
+            <li>
+                <a class="footer-alamat">PT Ajaib Sekuritas AsiaNeo Soho @Podomoro City Lt. 30,Jl. Letjen S. Parman No.28,Jakarta Barat</a>
+                <a href="#" class="footer-email">Email:support.saham@ajaib.co.id</a>
+                <a class="footer-phone">Phone: 021-30003606</a>
+            </li>
+        </ul>
     </div>
 
 </footer>

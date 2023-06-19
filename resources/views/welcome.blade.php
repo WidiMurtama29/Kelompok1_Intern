@@ -21,6 +21,8 @@
     <img src="{{ asset('images/Budi-Setiawan.png')}}" id="profil-pelanggan" alt="">
     <img src="{{ asset('images/Cara-Penggunaan.png')}}" id="carapenggunaan" alt="">
     <img src="{{ asset('images/chevron.png')}}" id="carapenggunaan" alt="">
+    <img src="{{ asset('images/logo-finder.png')}}" id="carapenggunaan" alt="">
+    <img src="{{ asset('images/logo-finder-navbar.png')}}" id="carapenggunaan" alt="">
 </head>
 <body>
     <header>

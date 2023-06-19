@@ -18,27 +18,22 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0px;
     padding: 0px;
-    position: relative;
-    width: 1440px;
-    height: 4867px;
     background-color: #FFFFFF;
+    position: relative;
+    /* width: 1400px; */
+    height: 4867px;
     /* background-color: var(--body-color); */
     /* var(--main-font); */
 }
 
-.logo{
+.logo img{
       float: left;
       display: inline-block;
-      border-radius: 10px;
-      background-color: #4F4F4F;
-      color: white;
-      text-align: center;
-      font-size: 16px;
-      padding: 10px 70px;
+      width: 120px;
       cursor: pointer;
-      text-decoration: none;
+      background-color: #4F4F4F;
+      border-radius: 20px;
       margin: 20px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 header nav {
@@ -304,33 +299,32 @@ aside{
 }
 
 .container-testimoni{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding-top: 55px;
     margin-left: 55px;
     gap: 50px;
 }
 
-.flex-testimoni {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    display: grid;
+.flex-testimoni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: left; */
     padding: 50px;
     width: 530px;
     height: 350px;
     background: #FFFFFF;
     box-shadow: 0px 0px 12px rgba(133, 133, 133, 0.35);
     border-radius: 18px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 
 
 .flex-testimoni p{
+    display: flex;
+    flex-direction: column;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -340,93 +334,106 @@ aside{
     color: #4F4F4F;
 }
 
-.akun-customer{
-    width: 540px;
-    height: 144px;
+.akun-customer-box{
     display: flex;
     flex-direction: row;
-    align-items: left;
+}
+
+.akun-customer-img{
+    display: flex;
+    flex-direction: row;
+    /* text-align: left; */
     /* grid-template-columns: auto auto; */
 }
 
-.akun-customer h2{
-    width: 147px;
-    height: 42px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 42px;
-    padding-left: 48px;
-    text-transform: capitalize;
-    text-align: center;
-    justify-content: left;
-    margin: left;
-    color: #4F4F4F;
-}
-
-.akun-customer p{
+.akun-customer-title{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: 147px;
-    height: 33px;
+    margin: 20px;
 }
 
-div.akun-customer img{
-    border-radius: 100px;
-    position: left;
-    margin-top: 20px;
-}
-
-.akun-customer2 {
-    width: 540px;
-    height: 144px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.akun-customer2 h2{
+.akun-customer-title h2{
     display: flex;
     flex-direction: row;
-    width: 206px;
+    width: 147px;
     height: 42px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 42px;
-    padding-left: 48px;
     text-transform: capitalize;
-    text-align: right;
-    justify-content: right;
-    margin: right;
+    text-align: left;
     color: #4F4F4F;
 }
 
-.akun-customer2 p{
+.akun-customer-title p{
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     width: 147px;
     height: 33px;
 }
 
-div.akun-customer2 img{
-    display: flex;
-    flex-direction: column;
+div.akun-customer-img img{
     max-width: 100px;
     max-height: 100px;
     top: 0px;
     border-radius: 100px;
-    position: left;
-    margin: left;
+    /* position: left; */
+    /* margin: left; */
     margin-top: 20px;
-    margin-right: 400px;
+    margin-right: 20px;
+}
+
+.akun-customer2-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.akun-customer2-img{
+    display: flex;
+    flex-direction: row;
+    /* text-align: left; */
+    /* grid-template-columns: auto auto; */
+}
+
+.akun-customer2-title{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.akun-customer2-title h2{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 42px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: capitalize;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+.akun-customer2-title p{
+    display: flex;
+    flex-direction: row;
+    width: 147px;
+    height: 33px;
+}
+
+div.akun-customer2-img img{
+    max-width: 100px;
+    max-height: 100px;
+    top: 0px;
+    border-radius: 100px;
+    /* position: left; */
+    /* margin: left; */
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 div.cara-penggunaan img{
@@ -660,7 +667,7 @@ footer{
     margin-top: 20px;
     gap: 62px;
 
-    width: 1440px;
+    width: 1460px;
     height: 500px;
     background: #4F4F4F;
 
@@ -670,14 +677,11 @@ footer{
     flex-grow: 0; */
 }
 
-.rectangle {
-    width: 227px;
-    height: 62px;
-    background: #E0E0E0;
-    border-radius: 11px;
+.rectangle img{
+    max-width: 200px;
+    max-height: 200px;
     display: flex;
     flex-direction: column;
-
     /* flex: none;
     order: 0;
     flex-grow: 0; */
@@ -686,7 +690,6 @@ footer{
 .informasi-footer {
     display: flex;
     flex-direction: column;
-    padding-bottom: 50px;
 }
 
 .informasi-footer h1{
@@ -706,12 +709,15 @@ footer{
     flex-grow: 0; */
 }
 
+
 .informasi-footer ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .informasi-footer ul li a{
+    display: flex;
+    flex-direction: column;
     width: 196px;
     height: 42px;
     margin: 20px;
@@ -725,4 +731,118 @@ footer{
 
     color: #F2F2F2;
 
+}
+
+.pusat-bantuan-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.pusat-bantuan-footer h1{
+    width: 140px;
+    height: 42px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.pusat-bantuan-footer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.pusat-bantuan-footer ul li a{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 42px;
+    margin: 20px;
+    padding-bottom: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: #F2F2F2;
+}
+
+.kontak-kami-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.kontak-kami-footer h1{
+    width: 200px;
+    height: 42px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.kontak-kami-footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-alamat{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding-bottom: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: #F2F2F2;
+}
+
+.footer-email{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 42px;
+    margin: 20px;
+    text-decoration: underline;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: #F2F2F2;
+}
+
+.footer-phone{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 42px;
+    margin: 20px;
+    padding-bottom: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: #F2F2F2;
 }
